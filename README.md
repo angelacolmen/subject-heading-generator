@@ -9,6 +9,7 @@ API key stored locally in your browser — never hardcoded, safe to use publicly
 
 Demo
 🤗 Live on HuggingFace Spaces
+
 How to Use
 
 Open index.html in your browser (or visit the live demo)
