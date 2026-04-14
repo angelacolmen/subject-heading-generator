@@ -1,5 +1,5 @@
 Subject Heading Generator
-An AI-powered subject heading generator built with Claude. Paste a book title or description and get catalog-ready subject headings in seconds.
+An AI-powered subject heading generator based on LOC. Paste a book title or description and get catalog-ready subject headings in seconds.
 Features
 
 Supports LCSH (Library of Congress Subject Headings), Sears, or both at once
@@ -8,7 +8,7 @@ Copy individual headings or all at once
 API key stored locally in your browser — never hardcoded, safe to use publicly
 
 Demo
-🤗 Live on HuggingFace Spaces ← update this link
+🤗 Live on HuggingFace Spaces
 How to Use
 
 Open index.html in your browser (or visit the live demo)
@@ -17,6 +17,7 @@ Paste a book title, description, or summary into the text box
 Select a subject heading scheme (LCSH, Sears, or both)
 Click Generate headings
 
+Your API key is saved to localStorage in your browser only and is never stored in the code or transmitted anywhere other than Anthropic's API.
 Example Input
 A novel about a young woman navigating grief and identity after the 
 death of her mother in rural Appalachia.
@@ -31,9 +32,8 @@ To run via a local server (optional):
 bashnpx serve .
 Related Projects
 
-Semantic Library Search ← update this link
-Citation Formatter ← update this link
+Semantic Library Search
+Citation Formatter
 
 License
 MIT
-
