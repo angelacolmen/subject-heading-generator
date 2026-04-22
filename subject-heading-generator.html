@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -507,7 +508,7 @@
             'anthropic-dangerous-direct-browser-access': 'true'
           },
           body: JSON.stringify({
-         model: 'claude-haiku-4-5',
+        model: 'claude-haiku-4-5-20251001',
             max_tokens: 1000,
             system: `You are an expert library cataloger with deep knowledge of ${scheme}. Given a book title or description, suggest appropriate subject headings. Respond ONLY with a JSON object — no markdown, no backticks, no preamble. Format: {"headings": [{"heading": "the subject heading string", "type": "main heading / subdivision / genre form / etc"}], "notes": "any brief cataloging notes or empty string"}`,
             messages: [
